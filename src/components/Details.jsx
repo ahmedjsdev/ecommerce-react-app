@@ -21,7 +21,7 @@ function Details() {
     <>
       {product && (
         <>
-          <h1>title: {product.title}</h1>
+          <h2>title: {product.title}</h2>
           <p>price: {product.price} </p>
         </>
       )}
