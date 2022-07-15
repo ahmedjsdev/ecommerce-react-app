@@ -21,8 +21,10 @@ function Details() {
     <>
       {product && (
         <>
+          <h1>title: {product.title}</h1>
           <h2>title: {product.title}</h2>
           <p>price: {product.price} </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est neque quisquam dolor repellendus ab quam voluptates aspernatur corporis perspiciatis, cumque quae autem veniam porro blanditiis amet, suscipit, quasi rem voluptate.</p>
         </>
       )}
     </>
